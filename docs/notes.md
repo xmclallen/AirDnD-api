@@ -6,3 +6,10 @@ This project is built in python using the Flask framework. But first, a virtual 
   * to get the dependencies at any time, run the command `pip freeze > requirements.txt`
 
 In development, when you want to run a flask app you must run `export FLASK_APP=<your_py_file_here>` at least once. From there, you can execute `flask run` and it will create your server
+
+### Atom Text Editor Integration
+
+Why not complicate things by learning multiple processes at once?
+I started using the Atom editor, which is really nice actually. It has built in git support (or maybe it is github specific, idk yet). It can give you a more GUI approach to version control and seems nice. It can even push to your repo when you click a button. However, it needs to be authenticated of course.
+
+I've set up multi-factor or SSH for my GitHub account, so it wont accept just a username and password over https. Instead, i needed to create a user access token and provide that as a password. It saved, nothing else needed, done!
